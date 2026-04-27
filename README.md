@@ -1,3 +1,5 @@
+//updated readme
+
 # Expense Tracker Application
 
 A full-stack expense tracking application built with React frontend and Express.js backend, featuring user authentication, CRUD operations for expenses, and data visualization.
