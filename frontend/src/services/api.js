@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://expense-tracker-fullstack-cd0s.onrender.com/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://expense-tracking-mern.onrender.com/api';
 
 // Create axios instance with default config
 const apiClient = axios.create({
