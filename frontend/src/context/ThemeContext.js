@@ -11,7 +11,7 @@ export const useTheme = () => {
 };
 
 export const ThemeProvider = ({ children }) => {
-  const [isDarkMode] = useState(() => {
+  const [isDarkMode, setIsDarkMode] = useState(() => {
     // Check localStorage or system preference
     const saved = localStorage.getItem('theme');
     if (saved) {
