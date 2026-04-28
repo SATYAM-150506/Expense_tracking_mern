@@ -2,8 +2,6 @@ import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 
 const ExpenseStats = ({ stats }) => {
-  const { isDarkMode } = useTheme();
-
   const formatAmount = (amount) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
