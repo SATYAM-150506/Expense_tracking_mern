@@ -14,7 +14,7 @@ app.use(cors({
     const allowedOrigins = [
       'http://localhost:3000',
       'http://localhost:5000',
-      'https://expense-tracker-frontend-r9m3.onrender.com',
+      'https://kharchatrack.vercel.app',
       process.env.FRONTEND_URL
     ];
     
