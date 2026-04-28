@@ -65,6 +65,7 @@ const Analytics = () => {
 
   useEffect(() => {
     fetchAnalyticsData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedMonth]);
 
   const handleMonthChange = (e) => {

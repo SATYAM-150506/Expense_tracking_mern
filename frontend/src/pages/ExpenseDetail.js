@@ -16,6 +16,7 @@ const ExpenseDetail = () => {
     if (!expense) {
       fetchExpense();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, expense]);
 
   const fetchExpense = async () => {

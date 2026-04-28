@@ -63,6 +63,7 @@ const Dashboard = () => {
   useEffect(() => {
     fetchExpenses();
     fetchStats();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters]);
 
   // Handle navigation state for editing expense

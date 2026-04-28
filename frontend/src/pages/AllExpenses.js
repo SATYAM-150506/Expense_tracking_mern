@@ -90,6 +90,7 @@ const AllExpenses = () => {
 
   useEffect(() => {
     fetchExpenses();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters, searchTerm]);
 
   // Handle expense creation/update
