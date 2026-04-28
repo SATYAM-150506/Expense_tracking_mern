@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTheme } from '../context/ThemeContext';
 
 const ExpenseStats = ({ stats }) => {
   const formatAmount = (amount) => {
